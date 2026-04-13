@@ -9,6 +9,8 @@ __pycache__/
 # Qdrant
 qdrant_data/
 
+.DS_Store
+
 # ChromaDB
 chroma_data/
 
