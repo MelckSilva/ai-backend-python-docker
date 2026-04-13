@@ -26,7 +26,6 @@ Tarefa: Alterar a porta padrão do banco de dados
 - O que precisou ser alterado?
 - Qual foi o impacto na aplicação?
 
-
 ### Cenário 4
 
 Tarefa: Delete o volume do container do banco de dados
