@@ -4,7 +4,7 @@ from sentence_transformers import SentenceTransformer
 
 def main():
     model = SentenceTransformer("all-MiniLM-L6-v2")
-    vector_size = model.get_sentence_embedding_dimension()
+    vector_size = model.get_embedding_dimension()
     
     client = qdrant_client.QdrantClient(host="localhost", port=6333)
     
@@ -32,11 +32,11 @@ def main():
     pergunta = "Como a Inteligência Artificial é usada em RAG?"
     vetor_pergunta = model.encode([pergunta])[0].tolist()
     
-    resultados = client.search(
+    resultados = client.query_points(
         collection_name="minha_colecao_qdrant",
-        query_vector=vetor_pergunta,
+        query=vetor_pergunta,
         limit=2
-    )
+    ).points
 
     print(f"BUSCANDO POR: '{pergunta}'\n")
     for resultado in resultados:

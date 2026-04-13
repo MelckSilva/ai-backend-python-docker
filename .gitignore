@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Qdrant
+qdrant_data/
+
 # ChromaDB
 chroma_data/
 

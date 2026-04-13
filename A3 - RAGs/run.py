@@ -142,7 +142,7 @@ def exemplo3():
     for page in reader.pages:
         texto += page.extract_text()
 
-    chunks = [texto[i:i+500] for i in range(0, len(texto), 500)]
+    chunks = [texto[i:i+1000] for i in range(0, len(texto), 1000)]
     emb_docs = modelo.encode(chunks)
     pergunta = input("Pergunta: ")
     emb_q = modelo.encode(pergunta)
