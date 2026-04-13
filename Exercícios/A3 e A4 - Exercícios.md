@@ -1,4 +1,4 @@
-# Exercícios – Retrieval-Augmented Generation (RAG) em Python 
+# Exercícios - Retrieval-Augmented Generation (RAG) em Python 
 
 Estes exercícios têm como objetivo ensinar na prática o conceito de RAG (Retrieval-Augmented Generation), construindo passo a passo a habilidade de extrair textos, dividi-los, convertê-los em embeddings, buscar os trechos mais relevantes e usá-los como contexto para uma IA responder perguntas.
 
@@ -6,7 +6,7 @@ Os exercícios começam com a manipulação básica de texto e evoluem até a co
 
 ---
 
-# Exercício 1 — Extração de Texto de um Documento
+# Exercício 1 - Extração de Texto de um Documento
 
 Baixe ou crie um arquivo PDF ou TXT (exemplo: `historia.txt` ou `artigo.pdf`). O objetivo deste exercício é puramente ler o conteúdo deste documento e exibi-lo no console.
 
@@ -17,7 +17,7 @@ Para PDF, instale e use uma biblioteca como `PyMuPDF` (`fitz`) ou `pdfplumber`.
 
 ---
 
-# Exercício 2 — Estratégia de Chunking (Divisão de Texto)
+# Exercício 2 - Estratégia de Chunking (Divisão de Texto)
 
 LLMs possuem limite de tokens e bancos vetoriais funcionam melhor com pequenos blocos de texto.
 
@@ -34,7 +34,7 @@ def dividir_texto(texto, tamanho_chunk=500):
 
 ---
 
-# Exercício 3 — Gerando Embeddings Locais
+# Exercício 3 - Gerando Embeddings Locais
 
 Vamos usar a biblioteca `sentence-transformers` para transformar os textos em vetores matemáticos, que são compreendidos pela máquina para calcular semelhança.
 
@@ -44,7 +44,7 @@ Vamos usar a biblioteca `sentence-transformers` para transformar os textos em ve
 
 ---
 
-# Exercício 4 — Criando um Banco de Conhecimento em Memória (Sem Chroma/Qdrant)
+# Exercício 4 - Criando um Banco de Conhecimento em Memória (Sem Chroma/Qdrant)
 
 Antes de usar Bancos Vetoriais complexos, vamos simular uma busca semântica puramente no Python para entender a matemática.
 
@@ -62,7 +62,7 @@ Antes de usar Bancos Vetoriais complexos, vamos simular uma busca semântica pur
 
 ---
 
-# Exercício 5 — O "R" e o "G" do RAG (Retrieval + Generation)
+# Exercício 5 - O "R" e o "G" do RAG (Retrieval + Generation)
 
 Agora vamos juntar a busca do Exercício 4 (Retrieval) com um LLM para a Geração de Texto (Generation).
 
@@ -82,7 +82,7 @@ CONTEXTO: {fato_mais_relevante_encontrado_no_exercicio_4}
 
 ---
 
-# Exercício 6 — Pipeline RAG Completo (Desafio Final)
+# Exercício 6 - Pipeline RAG Completo (Desafio Final)
 
 Chegou a hora de juntar tudo em um código profissional. Crie um script final que execute a seguinte jornada do início ao fim:
 

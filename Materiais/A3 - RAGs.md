@@ -22,7 +22,7 @@ Dado que documentos extensos não podem ser inseridos de forma integral no conte
 Através da utilização de modelos de representação vetorial (Sentence Transformers), o sistema converte os segmentos de texto (Chunks) em extensos arrays numéricos, denominados vetores. Conceitos literários que compartilham similaridade semântica tendem a convergir, gerando coordenadas matemáticas muito próximas.
 
 #### Passo 4: Armazenamento em Banco de Dados
-Para contornar o retrabalho computacional, todos os vetores recém-criados são atrelados num repositório focado na estrutura matemática — os Bancos de Dados Vetoriais. Estas plataformas arquivam o vetor concomitantemente ao texto de origem.
+Para contornar o retrabalho computacional, todos os vetores recém-criados são atrelados num repositório focado na estrutura matemática - os Bancos de Dados Vetoriais. Estas plataformas arquivam o vetor concomitantemente ao texto de origem.
 
 #### Passo 5: Recuperação de Conhecimento
 No momento em que o usuário formula sua pergunta, converte-se este texto originário nas mesmas dimensões vetoriais dos documentos. Em seguida, busca-se no banco de dados quais são os locais das distâncias mais estreitas e, portanto, de resposta mais oportuna ao tema perguntado.

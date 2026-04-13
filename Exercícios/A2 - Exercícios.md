@@ -1,5 +1,5 @@
 
-# Exercícios – Function Calling em Python (via Mensagem)
+# Exercícios - Function Calling em Python (via Mensagem)
 
 Estes exercícios têm como objetivo ensinar o conceito de Function Calling em Python utilizando mensagens em linguagem natural, simulando o comportamento de agentes com ferramentas (tools).
 
@@ -7,7 +7,7 @@ Os exercícios começam com exemplos simples de interpretação de mensagens e e
 
 ---
 
-# Exercício 1 — Calculadora Simples
+# Exercício 1 - Calculadora Simples
 
 Crie duas funções:
 
@@ -40,7 +40,7 @@ O sistema deve:
 
 ---
 
-# Exercício 2 — Calculadora Completa
+# Exercício 2 - Calculadora Completa
 
 Implemente as funções:
 
@@ -63,7 +63,7 @@ O sistema deve identificar automaticamente qual função chamar.
 
 ---
 
-# Exercício 3 — Conversão de Temperatura
+# Exercício 3 - Conversão de Temperatura
 
 Crie as funções:
 
@@ -84,7 +84,7 @@ O programa deve interpretar a mensagem e chamar a função correta.
 
 ---
 
-# Exercício 4 — Consulta de Produto
+# Exercício 4 - Consulta de Produto
 
 Crie a função:
 
@@ -116,7 +116,7 @@ O sistema deve identificar o produto e chamar `buscar_produto`.
 
 ---
 
-# Exercício 5 — Verificação de Estoque
+# Exercício 5 - Verificação de Estoque
 
 Crie funções:
 
@@ -147,7 +147,7 @@ O sistema deve decidir qual função chamar.
 
 ---
 
-# Exercício 6 — Sistema de Agenda
+# Exercício 6 - Sistema de Agenda
 
 Crie funções:
 
@@ -172,7 +172,7 @@ O sistema deve interpretar a mensagem e chamar a função correta.
 
 ---
 
-# Exercício 7 — Consulta de Clima
+# Exercício 7 - Consulta de Clima
 
 Crie a função:
 
@@ -204,7 +204,7 @@ O programa deve extrair o nome da cidade e chamar a função.
 
 ---
 
-# Exercício 8 — Consulta em Banco de Dados (Produtos)
+# Exercício 8 - Consulta em Banco de Dados (Produtos)
 
 Crie um banco **SQLite** chamado:
 
@@ -225,10 +225,10 @@ CREATE TABLE produtos (
 Insira alguns dados:
 
 ```
-notebook – 4500
-mouse – 80
-teclado – 150
-monitor – 900
+notebook - 4500
+mouse - 80
+teclado - 150
+monitor - 900
 ```
 
 Crie a função:
@@ -251,7 +251,7 @@ Qual o preço do notebook?
 
 ---
 
-# Exercício 9 — Consulta de Clientes no Banco
+# Exercício 9 - Consulta de Clientes no Banco
 
 Crie uma tabela:
 
@@ -266,10 +266,10 @@ CREATE TABLE clientes (
 Dados de exemplo:
 
 ```
-Ana – Bauru
-Carlos – São Paulo
-Mariana – Curitiba
-Pedro – Bauru
+Ana - Bauru
+Carlos - São Paulo
+Mariana - Curitiba
+Pedro - Bauru
 ```
 
 Crie a função:
@@ -296,7 +296,7 @@ O sistema deve:
 
 ---
 
-# Exercício 10 — Agente que Consulta Pedidos
+# Exercício 10 - Agente que Consulta Pedidos
 
 Crie tabela:
 
