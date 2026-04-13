@@ -88,7 +88,7 @@ Chegou a hora de juntar tudo em um código profissional. Crie um script final qu
 
 1. **Ingestão:** Leia um arquivo `.txt` longo simulando um regulamento de empresa ou base de dados (Ex: `regras_empresa.txt`).
 2. **Chunking:** Divida-o em blocos de 500 caracteres.
-3. **Indexação:** Transforme-os em Embeddings. (Neste passo você PODE salvar em um Banco Vetorial como ChromaDB se desejar abstrair a matemática, como visto em aulas futuras/anteriores).
+3. **Indexação:** Transforme-os em Embeddings e armazene em bancos vetoriais.
 4. **Busca (Retrieval):** O usuário faz uma pergunta no terminal. Você localiza o chunk (ou os 2 chunks) mais relevantes.
 5. **Geração (Generation):** Adicione os chunks encontrados num Prompt estruturado e envie para a API de um LLM responder.
 
