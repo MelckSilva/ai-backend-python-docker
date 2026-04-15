@@ -68,7 +68,7 @@ Agora vamos juntar a busca do Exercício 4 (Retrieval) com um LLM para a Geraç�
 
 **O que fazer:**
 1. Reaproveite o código de busca do fato mais semelhante (Exercício 4).
-2. Conecte-se a uma API de LLM (como OpenAI, Gemini, ou Ollama local).
+2. Conecte-se a uma API de LLM (como Groq, OpenAI, Gemini, ou Ollama local).
 3. Em vez de apenas imprimir o fato mais semelhante, injete esse fato no "System Prompt" do LLM.
 
 Exemplo de Prompt a ser gerado dinamicamente:
